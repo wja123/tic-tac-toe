@@ -1,0 +1,63 @@
+*,html{
+
+}
+
+.container{
+	text-align: center;
+}
+
+.h1{
+
+}
+
+.gamestatus{
+	height:15px;
+}
+
+
+.titlerow{
+	display: block;
+	text-align: center;
+}
+
+.outerouterbox{
+	display:block;
+	text-align: center;
+	margin-top:1%;
+}
+
+.outerbox{
+	height:600px;
+	width:100%;
+}
+
+.innerbox{
+	display:inline-block;
+	border:2px black solid;
+	height:100px;
+	width:100px;
+}
+
+.row1,.row2,.row3{
+	margin-bottom:-5px;
+}
+
+
+.newgame{
+	background-color: #bec1bb;
+	margin-bottom: 1%;
+}
+
+.circleclass{
+	background-image: url("http://www.clipartbest.com/cliparts/di8/5Mo/di85MoMXT.png");
+	background-size: contain;
+	background-repeat:   no-repeat;
+	background-position: center center; 
+}
+
+.crossclass{
+	background-image: url("https://api.icons8.com/download/6a145bf660d8bd09337d6169823882c8356a924c/iOS7/PNG/256/User_Interface/delete_sign-256.png");
+	background-size: contain;
+	background-repeat:   no-repeat;
+	background-position: center center; 
+}
