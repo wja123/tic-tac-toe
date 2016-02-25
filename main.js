@@ -75,7 +75,7 @@ function winCheck(row,column,mark,boardSize){
 	for(var i = 0;i < boardSize;i++){
 		tempCol[i] = gameArray[i][column - 1];
 		diagOne[i] = gameArray[i][i];
-		diagTwo[i] = gameArray[boardSize - i - 1][boardSize - i - 1]; 
+		diagTwo[i] = gameArray[i][boardSize - i - 1]; 
 	}
 
 	console.log("col: " + tempCol.join("") +" Row: " + tempRow.join("") +" diagOne: "+ diagOne.join("") +" diagTwo: "+ diagTwo.join("") +" winCase: "+ winCase );
